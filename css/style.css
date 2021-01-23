@@ -1,0 +1,102 @@
+/*=============================================
+    Template Name   : My Template
+    Template URL    : http://mytemplate.com
+    Author          : ME
+    Version         : 1.0
+    Tags            : HTML, CSS
+===============================================*/
+/*=========== TABLE OF CONTENTS ============
+
+    01. General Css
+    02. 
+    
+    
+======================================*/
+/*======================
+   01. General Css
+========================*/
+
+* {
+
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover, a:active, a:focus {
+
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+p {
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* ========Start Main Css========== */
+
+
+.navbar{
+    background: #f9f9f9;
+}
+.navbar .nav-link{
+    text-transform: uppercase;
+    color: #332f2f!important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.line{
+    height: 2px;
+}
+
+.fa-code {
+    color: #e54d26; 
+}
+  
+  .fa-bold {
+    color: #2163af; 
+}
+  
+  .fa-css3 {
+    color: #e54d26; 
+}
+    .fa-code, .fa-bold, .fa-css3 {
+        font-size: 4em;
+        margin: 1rem; 
+    }  
+
+
+    /* ======Team Section Css===== */
+    .card{
+        margin-top: 10px;
+    }
+
+
+    .social a{
+        display: inline-block;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
